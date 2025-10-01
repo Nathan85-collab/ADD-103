@@ -1,0 +1,20 @@
+body {
+  background-color: #03dafc;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  color: hsl(0, 94%, 50%);
+  background-color: #fcfcfc;
+  padding: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px;
+}
+
+a[href="#top"] {
+  color: green;
+  display: block;
+  margin-top: 10px;
+}
