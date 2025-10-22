@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: rgb(88, 83, 83);
+}
+
+h1 {
+  text-shadow: 2px 2px 5px rgba(237, 221, 83, 1);
+}
+
+.columns {
+  column-count: 3;
+  column-gap: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 45%;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(
+    317deg,
+    rgba(0, 0, 0, 1) 26%,
+    rgba(255, 221, 0, 1) 100%,
+    rgba(237, 221, 83, 1) 58%
+  );
+}
+
+.pictures {
+  column-count: 2;
+  column-gap: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 45%;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(
+    317deg,
+    rgba(0, 0, 0, 1) 26%,
+    rgba(255, 221, 0, 1) 100%,
+    rgba(237, 221, 83, 1) 58%
+  );
+}
+
+.camel {
+  align-self: auto;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 0px auto;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bird {
+  align-self: auto;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 0px auto;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+}
+img {
+  resize: horizontal;
+  overflow: auto;
+  width: 250px;
+  height: 250px;
+}
