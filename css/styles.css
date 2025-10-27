@@ -1,0 +1,19 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(48, 48, 87);
+  color: rgb(214, 30, 30);
+  margin: 16px;
+  padding: 10;
+}
+
+dl {
+  margin: 16px;
+}
+
+dt {
+  padding: 10px;
+}
+
+dt a {
+  color: aliceblue;
+}
