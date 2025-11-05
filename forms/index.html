@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Pineapple form</h1>
+    <form>
+      <div class="main">
+        <h3>Required Field</h3>
+        <label for="fname">First name:</label>
+        <input
+          type="text"
+          required
+          autofocus
+          id="fname"
+          name="fname"
+        /><br /><br />
+
+        <label for="lname">Last name:</label>
+        <input type="text" required id="lname" name="lname" /><br /><br />
+
+        <label for="email">Email Address:</label>
+        <input type="email" required id="email" name="email" /><br /><br />
+
+        <h3>How many pineapples does it take to make a pineapple?</h3>
+
+        <input type="radio" id="pineapple" name="pineapple" />
+        <label for="pineapple">1</label><br />
+        <input type="radio" id="pineapple" name="pineapple" />
+        <label for="pineapple">5</label><br />
+        <input type="radio" id="pineapple" name="pineapple" />
+        <label for="pineapple">3</label><br />
+        <input type="radio" id="pineapple" name="pineapple" />
+        <label for="pineapple">10</label><br />
+
+        <h3>Pineapple?</h3>
+
+        <input type="checkbox" id="checkbox" />
+        <label for="chechbox">Penapple?</label><br />
+        <input type="checkbox" id="checkbox" />
+        <label for="chechbox">PinePine?</label><br />
+        <input type="checkbox" id="checkbox" />
+        <label for="chechbox">AppleApple?</label><br />
+        <input type="checkbox" id="checkbox" />
+        <label for="chechbox">ApplePine?</label><br />
+        <input type="checkbox" id="checkbox" />
+        <label for="chechbox">I perfer mangos</label><br /><br /><br />
+
+        <input type="reset" value="reset" id="reset" /><br /><br />
+
+        <input type="submit" id="submit" />
+      </div>
+    </form>
+  </body>
+</html>
