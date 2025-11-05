@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+/*
+F4F1DE - WHITE
+B9314F - RED
+386C0B - GREEN
+000000 - BLACK
+2F323A - GREY
+*/
+
+body {
+  text-align: center;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: 190%;
+  font-family: "Freckle Face";
+  color: #b9314f;
+}
+
+nav {
+  padding: 12px;
+  margin: 20px;
+}
+
+nav a {
+  border: 2px solid #b9314f;
+  background-color: black;
+  color: #f4f1de;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 2px solid #386c0b;
+  background-color: black;
+  color: #b9314f;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+}
+
+#color-green {
+  color: #386c0b;
+}
+
+main {
+  padding: 10px;
+}
+
+main table {
+  font-family: "Delius";
+  background-color: #f4f1de;
+  border: 2px solid black;
+}
+
+header h1 {
+  color: #386c0b;
+  font-size: 70px;
+  background-color: #2f323a;
+  border: 4px solid #b9314f;
+  max-width: 600px;
+  padding: 25px;
+  margin: 100px auto;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+table tr td {
+  padding: 20px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  margin: 12px auto;
+  padding: 5px;
+  border: 4px solid #386c0b;
+  background-color: #2f323a;
+}
+
+.main-image {
+  margin: 20px;
+}
+
+#top-image {
+  width: 300px;
+  height: 250px;
+  margin: 12px auto;
+  padding: 5px;
+  border: 4px solid #386c0b;
+  background-color: #2f323a;
+}
+
+.top a {
+  border: 2px solid #b9314f;
+  background-color: black;
+  color: #f4f1de;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.top a:hover {
+  border: 2px solid #386c0b;
+  background-color: #f4f1de;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px;
+  text-decoration: none;
+}
+
+footer dt {
+  border: 2px solid black;
+  background-color: #f4f1de;
+  max-width: 200px;
+  margin: auto;
+  padding: 8px;
+}
+
+#float {
+  float: left;
+}
