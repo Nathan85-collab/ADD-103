@@ -1,0 +1,19 @@
+.container-fluid {
+  margin: 10px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 90%;
+}
+
+.h1 {
+  text-align: center;
+}
+
+#offcanvas {
+  text-align: center;
+}
