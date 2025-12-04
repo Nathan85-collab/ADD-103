@@ -1,0 +1,102 @@
+.container-fluid {
+  margin: 10px;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgba(33, 49, 141, 0.596);
+  color: rgb(6, 36, 18);
+  text-align: center;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.row .col-md-6 .paragraph {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.row .col-md-6 img {
+  height: 400px;
+  width: 500px;
+}
+
+.page-2 img {
+  height: 400px;
+  width: 500px;
+}
+
+.page-2 p {
+  margin-top: 150px;
+}
+
+.carousel-inner img {
+  width: 90%;
+  height: 600px;
+}
+
+header .row .col-md-4 img {
+  height: 500px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+header {
+  margin-top: 35px;
+  text-align: center;
+}
+
+main {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+main table {
+  margin: 50px;
+  padding: 10px;
+}
+
+table {
+  text-align: center;
+}
+
+table p {
+  padding-top: 80px;
+}
+
+tr {
+  align-items: center;
+  margin: auto;
+}
+
+tr td img {
+  height: 350px;
+  width: 600px;
+}
+
+.table-bordered tr td p {
+  width: 500px;
+}
+
+header p {
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
